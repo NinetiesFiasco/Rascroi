@@ -1,0 +1,121 @@
+<main>
+
+  <a href="/orders">Назад</a>
+
+  <div id="armaturaTable"></div>
+
+  <input type="button" value="Раскрой" id="getRascroi"/>
+
+  <table class="newArmatura">
+    <thead>
+      <tr><th colspan="2">
+        Добавить арматуру
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Тип</td>
+        <td>
+          <select id="armaturaType">
+            <option>a000</option>
+            <option>a100</option>
+            <option>a200</option>
+            <option>a300</option>
+            <option>a400</option>
+            <option>a500</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Диаметр</td>
+        <td>
+          <select id="armaturaThickness">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Длина</td>
+        <td>
+          <input type="text" placeholder="Длина в мм" id="armaturaLength" />
+        </td>
+      </tr>
+      <tr>
+        <td>Количество</td>
+        <td>
+          <input type="text" id="armaturaCount" />
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+       <td colspan="2">
+          <input type="button" id="addArmatura" value="Добавить"/>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <table class="redactCart">
+    <thead>
+      <tr><th colspan="2">
+        Редактировать арматуру
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Тип</td>
+        <td>
+          <select id="armaturaTypeR">
+            <option>a000</option>
+            <option>a100</option>
+            <option>a200</option>
+            <option>a300</option>
+            <option>a400</option>
+            <option>a500</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Диаметр</td>
+        <td>
+          <select id="armaturaThicknessR">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Длина</td>
+        <td>
+          <input type="text" placeholder="Длина в мм" id="armaturaLengthR" />
+        </td>
+      </tr>
+      <tr>
+        <td>Количество</td>
+        <td>
+          <input type="text" id="armaturaCountR" />
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+       <td colspan="2">
+          <input type="button" id="redactArmatura" value="Сохранить"/>
+          <input type="hidden" id="armaturaGUID" />
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+</main>

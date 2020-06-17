@@ -1,0 +1,61 @@
+<main>
+
+  <div id="cartTable"></div>
+
+  <table class="newCart">
+    <thead>
+      <tr><th colspan="2">
+        Добавить новый заказ
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Название</td>
+        <td>
+          <input type="text" id="cartName"/>
+        </td>
+      </tr>
+      <tr>
+        <td>Комментарий</td>
+        <td><textarea id="cartComment"></textarea></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+       <td colspan="2">
+          <input type="button" id="addCart" value="Добавить заказ"/>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <table class="redactCart">
+    <thead>
+      <tr><th colspan="2">
+        Редактировать описание заказа
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Название</td>
+        <td>
+          <input type="text" id="cartNameR"/>
+        </td>
+      </tr>
+      <tr>
+        <td>Комментарий</td>
+        <td><textarea id="cartCommentR"></textarea></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+       <td colspan="2">
+          <input type="button" id="redactCart" value="Сохранить"/>
+          <input type="hidden" id="cartGUID" />
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+  
+</main>

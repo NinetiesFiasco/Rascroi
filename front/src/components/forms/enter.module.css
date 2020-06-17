@@ -1,0 +1,12 @@
+.EnterForm{
+  padding: 10px 15px;
+  margin-right: 25px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+}
+
+.EnterBlock{
+  position: absolute;
+  right: 0px;
+}

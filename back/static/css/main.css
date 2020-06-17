@@ -1,0 +1,10 @@
+nav ul>li{
+    float: left;
+    padding-left: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav{
+    height: 30px;  
+} 
